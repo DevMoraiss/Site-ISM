@@ -1,0 +1,65 @@
+/* Geral */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #222;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+header img {
+    max-width: 150px;
+    float: left;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+
+nav li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Seções */
+section {
+    padding: 2rem 0;
+}
+
+section h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+/* Rodapé */
+footer {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.img-carousel {
+    height: 500px; /* altura padrão */
+    object-fit: cover; /* faz com que a imagem seja redimensionada para caber no espaço */
+  }

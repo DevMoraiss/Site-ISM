@@ -1,0 +1,118 @@
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+
+    height: 100vh;
+    background-color: #b6b6b6;
+}
+.nav {
+    background-color: #000000;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.nav ul li a {
+    color: #b6b6b6;
+    text-decoration: none;
+}
+
+
+.header {
+    display: flex;
+    background-color: #012998;
+    width: 100%;
+    text-align: center;
+}
+
+
+.section {
+    padding: 20px;
+}
+
+
+.footer {
+    background-color: #141414;
+    color: #fff;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.imagem{
+    width: 150px;
+    height: 150px;
+
+}
+
+.header > h1{
+    font-size: 4em;
+    font-style: oblique;
+    
+}
+@media only screen and (max-width:600px) {
+    .header > h1{
+        display: none;
+    }
+}
+
+
+
+.section{
+    display: flex;
+    
+}
+.incial > p{
+    padding: 10px;
+    margin: 10px;
+    font-size: 23px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.contatos{
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px;
+    background: url("../img/211f04d43dee3856c5c152d7b16d4a3c.jpg");
+    height:700px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.insta,.face, .loc,.wpp {
+    font-size: 50px;
+    padding: 30px;
+    margin: 30px;
+    color: #020202;
+}
+
+
+
+
+
+.historia .historia_para{
+    font-size: 20px;
+    max-width: 1000px;
+    margin: auto;
+    text-align: justify;
+    padding: 50px;
+}
